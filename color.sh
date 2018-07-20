@@ -1,0 +1,7 @@
+BOLD="$(tput bold 2>/dev/null ||:)"
+GREY="$(tput setaf 0 2>/dev/null ||:)"
+RED="$(tput setaf 1 2>/dev/null ||:)"
+GREEN="$(tput setaf 2 2>/dev/null ||:)"
+MAGENTA="$(tput setaf 5 2>/dev/null ||:)"
+CYAN="$(tput setaf 6 2>/dev/null ||:)"
+NO_COLOR="$(tput sgr0 2>/dev/null ||:)"
