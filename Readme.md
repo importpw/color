@@ -8,5 +8,5 @@ Print ANSI color escape sequences in shell scripts.
 #!/usr/bin/env import
 import "color"
 
-echo "`blue some blue text,` `red and now red,` `and green suddenly green!`"
+echo "`blue some blue text,` `red and now red,` `green and suddenly green!`"
 ```
